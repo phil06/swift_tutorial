@@ -29,6 +29,9 @@ class ViewController: UIViewController {
         
         //이미지 피커 컨트롤러 실행
         self.present(picker, animated: false)
+        
+        //이미지 피커 컨트롤러 종료
+        picker.dismiss(animated: false)
     }
     
 
